@@ -2,3 +2,40 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+
+  /* Переменные текста */
+
+  --main-font-family: 'IBM Plex Mono';
+  --main-font-size: 18px;
+  --title-font-size-tablet: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --title-font-line-height-tablet: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
+  --title-font-line-height-desktop: clamp(6.1875rem, 0.4631rem + 11.9258vw, 8.095625rem);
+  --main-font-line-height: 23.4px;
+  --main-font-weight-bold: 700;
+  --main-font-weight-regular: 400;
+  --display-rec: block;
+
+
+  /* Переменные цвета текста */
+
+  --accent-color: #FF0070;
+  --nav-color: #FF0070;
+  --border-color-opacity: rgba(255, 0, 112, 0.4);
+  --main-text-color: #F1B2CE;
+  --title-text-color: #FF0070;
+  --title-shadow-color-desktop: #FF0070;
+  --subtitle-text-color: #000028;
+  --header-color-logo: #DB00FF;
+  --footer-color-logo: #DB00FF;
+  --decorated-zone-color: #FF0070;
+  
+  /* Переменные фона */
+
+  --header-title-bg-color: #FF0070;
+  --main-heading-color: #000028;
+  --main-bg-color: #000028;
+  --main-bg-image: url(../images/cover-image-dark.png);
+}
